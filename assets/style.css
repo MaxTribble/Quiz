@@ -1,0 +1,24 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+#timer {
+    background-color: green;
+    font-size: 60px;
+    color: red;
+    text-shadow: 0 0 10px white;
+    text-shadow: 0 0 10px white inset;
+    
+}
+
+.button {
+    font-size: 60px;
+}
+.answers {
+    display:flex;
+    flex-direction: column;
+    max-width: fit-content;
+    outline: none;
+}
+.display {
+    display: none;
+}
