@@ -122,22 +122,6 @@ function redo() {
     location.reload()
 }
 
-//for(i=0; i < questions.length; i++){
-//var h = questions[i].question 
-// questionEl.innerHTML = h
-//for(x=0; x < 4; x++){
- //
- //answers.innerHTML = 
-//    var button = document.createElement("button")
-//    button.innerHTML = "hi"//questions[i].options[x].a;
- 
-//}}
-// count.innerHTML = startTime
-
-function verify(e) {
-    console.log(e.target)
-}
-
 function counting() {
 
 // count.innerHTML = startTime--;
