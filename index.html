@@ -9,20 +9,23 @@
     <link rel="stylesheet" type="text/css" href="./assets/style.css" />
 </head>
 <body>
-    <div id="quiz">
-        <p class="question">question</p>
-        <div class="answers">
-            <button id="A">a</button>
-            <button id="B">b</button>
-            <button id="C">b</button>
-            <button id="D">d</button>
+    <div id="quiz" class="display">
+        <p id="question"></p>
+        <p id="score"></p>
+        <div id="answers">
+            <p id="A"></p>
+            <p id="B"></p>
+            <p id="C"></p>
+            <p id="D"></p>
         </div>
-        <div class="button">
-            <button id="start">start</button>
-            <button id="next">next</button>
-        </div>
-        <div id="timer"></div>
     </div>
+        <div>
+            <button id="retry" class="display Xbutton">retry</button>
+            <button id="start" class="Xbutton">start</button>
+            <button id="next" class="display Xbutton">next</button>
+        </div>
+        <!-- <div id="timer"></div> -->
+    
     <script src="./assets/script.js"></script>
 </body>
 </html>
